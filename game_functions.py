@@ -12,3 +12,16 @@ def check_higher_lower(current_val, next_val, user_input):
 # function to be used in game_3: Hangman
 def process_guess(letter, board, word):
     pass
+
+# funtion to be used in game_2: Higher or lower
+def check_higher_lower(current_val,next_val,user_input):
+    if (current_val <= next_val and user_input = "h"):
+        print("True")
+        return True
+    elif (current_val >= next_val and user_input = "l"):
+        print("True")
+        return True
+    else:
+        print("False")
+        return False
+
